@@ -49,6 +49,7 @@ public class User {
     @Column(name = "last_modified_at")
     private Date modified;
 
+    @CreatedDate
     @Column(name = "last_login")
     private Date lastLogin;
 
